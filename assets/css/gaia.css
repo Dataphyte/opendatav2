@@ -3741,3 +3741,29 @@ body {
     padding: 0;
   }
 }
+
+#res-bar {
+  width: 40%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#res-bar {
+  padding: 1rem;
+  width: 100%;
+}
+#res-title {
+  font-size: 2rem;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* #res-bar {
+    padding: 1rem;
+    width: 100%;
+  } */
+} 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
